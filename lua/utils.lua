@@ -13,7 +13,7 @@ M.parsers = {
 M.servers = {
   "bashls", "clangd", "cmake",
   "cssls", "dockerls", "html",
-  "jsonls", "tsserver", "lua_ls",
+  "jsonls", "lua_ls",
   "marksman", "pyright", "rust_analyzer",
   "sqlls", "taplo", "tailwindcss",
   "emmet_ls"

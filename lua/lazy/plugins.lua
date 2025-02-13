@@ -160,6 +160,10 @@ local plugins = {
     "mfussenegger/nvim-lint",
     event = { "BufReadPre", "BufNewFile" },
     config = get_config("c", "lint", "langsup")
+  },
+  {
+    "vladdoster/remember.nvim",
+    config = [[ require('remember') ]]
   }
 }
 

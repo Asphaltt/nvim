@@ -1,31 +1,44 @@
 local M = {}
 
+-- M.parsers = {
+--   "astro", "bash", "c", "cpp", "cmake", "css",
+--   "dockerfile", "gitignore", "html",
+--   "htmldjango", "javascript", "json",
+--   "jsonc", "lua", "make", "markdown",
+--   "markdown_inline", "python", "regex",
+--   "rust", "scss", "sql", "toml", "tsx",
+--   "typescript", "vim", "yaml"
+-- }
+
 M.parsers = {
-  "astro", "bash", "c", "cpp", "cmake", "css",
-  "dockerfile", "gitignore", "html",
-  "htmldjango", "javascript", "json",
-  "jsonc", "lua", "make", "markdown",
-  "markdown_inline", "python", "regex",
-  "rust", "scss", "sql", "toml", "tsx",
-  "typescript", "vim", "yaml"
+  "bash", "c", "json", "lua", "make", "markdown",
+  "python", "rust", "go"
 }
+
+-- M.servers = {
+--   "bashls", "clangd", "cmake",
+--   "cssls", "dockerls", "html",
+--   "jsonls", "lua_ls",
+--   "marksman", "pyright", "rust_analyzer",
+--   "sqlls", "taplo", "tailwindcss",
+--   "emmet_ls"
+-- }
 
 M.servers = {
-  "bashls", "clangd", "cmake",
-  "cssls", "dockerls", "html",
-  "jsonls", "lua_ls",
-  "marksman", "pyright", "rust_analyzer",
-  "sqlls", "taplo", "tailwindcss",
-  "emmet_ls"
+  "bashls", "lua_ls", "rust_analyzer"
 }
 
-M.tools = {
-  -- formatters
-  "clang-format", "autopep8",
-  "prettier", "stylua",
+-- M.tools = {
+--   -- formatters
+--   "clang-format", "autopep8",
+--   "prettier", "stylua",
 
-  --linters
-  "cpplint", "eslint_d", "pylint"
+--   --linters
+--   "cpplint", "eslint_d", "pylint"
+-- }
+
+M.tools = {
+  "prettier", "pylint"
 }
 
 M.server_configs = {

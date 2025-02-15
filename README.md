@@ -44,3 +44,7 @@ git -C ~/.config/ clone https://github.com/yujiqo/nvim.git
 - Run nvim and wait until all of plugins are installed then restart nvim
 
 That's it!
+
+# Acknowledgements
+
+This repo is copied from https://github.com/yujiqo/nvim. Then do some modification to fit my needs.
